@@ -3,6 +3,6 @@ app.directive('hello', function () {
     return {
         restrict: 'E',
         transclude: true,
-        template: '<div>Hello, <span ng-transclude class="transclude"></span>!</div>'
+        template: '<div>Hello, <span ng-transclude style="background-color: yellow"></span>!</div>'
     }
 })
