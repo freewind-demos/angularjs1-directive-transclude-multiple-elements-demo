@@ -1,9 +1,8 @@
-const app = angular.module('app', []);
-app.directive('bgColor', function () {
+const app = angular.module('app', [])
+app.directive('hello', function () {
     return {
-        restrict: 'A',
-        link: function (scope, element, attrs) {
-            element.css("background-color", attrs.bgColor)
-        }
+        restrict: 'E',
+        transclude: true,
+        template: '<div>Hello, <span ng-transclude class="transclude"></span>!</div>'
     }
-});
+})
