@@ -1,7 +1,7 @@
 AngularJS1 Directive Transclude Demo
 ====================================
 
-Use directive's `transclude` to handle the old inner content.
+Use directive's `transclude` with named slots to handle multiple elements.
 
 ```
 npm install
@@ -14,5 +14,5 @@ Resources
 ---------
 
 - AngularJS1: <https://angularjs.org/>
-- directive api: <https://docs.angularjs.org/api/ng/service/$compile#directive-definition-object>
+- transclude api and sample: <https://docs.angularjs.org/api/ng/directive/ngTransclude>
 - $element api: <https://docs.angularjs.org/api/ng/function/angular.element#angularjs-s-jqlite>
