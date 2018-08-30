@@ -1,5 +1,5 @@
-AngularJS1 Directive Transclude Demo
-====================================
+AngularJS1 Directive Transclude Multiple Elements Demo
+======================================================
 
 Use directive's `transclude` with named slots to handle multiple elements.
 
